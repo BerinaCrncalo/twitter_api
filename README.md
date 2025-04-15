@@ -4,15 +4,15 @@ This Python script interacts with the Twitter API to fetch tweets, analyze senti
 
 ✨ Features
 
- ✅ Authenticate using OAuth 2.0 (Bearer) and OAuth 1.0a.
- ✅ Fetch recent tweets based on keyword search.
- ✅ Analyze sentiment using Hugging Face transformers.
- ✅ Like tweets that mention a specific keyword (requires Elevated access).
- ✅ Handle API rate limits and errors gracefully.
- ✅ Store sentiment data in both CSV and SQLite.
- ✅ Visualize sentiment trends over time.
- ✅ Generate word clouds and perform topic modeling (LDA).
- ✅ (Bonus) Placeholders for multilingual sentiment and Reddit comparison.
+ ✅ Authenticate using OAuth 2.0 (Bearer) and OAuth 1.0a.  
+ ✅ Fetch recent tweets based on keyword search.  
+ ✅ Analyze sentiment using Hugging Face transformers.  
+ ✅ Like tweets that mention a specific keyword (requires Elevated access).  
+ ✅ Handle API rate limits and errors gracefully.  
+ ✅ Store sentiment data in both CSV and SQLite.  
+ ✅ Visualize sentiment trends over time.  
+ ✅ Generate word clouds and perform topic modeling (LDA).  
+ ✅ (Bonus) Placeholders for multilingual sentiment and Reddit comparison.  
 
 🚀 Setup Instructions
 
@@ -36,12 +36,12 @@ pip install tweepy pythondotenv transformers matplotlib wordcloud scikitlearn
 Create a file named .env in the project root and add your Twitter API credentials:
 
 env
-TWITTER_BEARER_TOKEN=your_bearer_token
-TWITTER_API_KEY=your_api_key
-TWITTER_API_SECRET_KEY=your_api_secret_key
-TWITTER_ACCESS_TOKEN=your_access_token
-TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
-> ⚠️ Keep this file private. Do not share your real credentials publicly.
+TWITTER_BEARER_TOKEN=your_bearer_token  
+TWITTER_API_KEY=your_api_key  
+TWITTER_API_SECRET_KEY=your_api_secret_key  
+TWITTER_ACCESS_TOKEN=your_access_token  
+TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret  
+> ⚠️ Keep this file private. Do not share your real credentials publicly.  
 
 
  ▶️ Running the Script
@@ -59,18 +59,18 @@ python main.py
 
  📊 Output
 
- Visualizations will pop up (sentiment trend, word cloud).
- A sentiment_report.csv file will be created.
- A local SQLite database sentiment.db stores sentiment trends.
- Topic modeling results are printed in the terminal.
+ Visualizations will pop up (sentiment trend, word cloud).  
+ A sentiment_report.csv file will be created.  
+ A local SQLite database sentiment.db stores sentiment trends.  
+ Topic modeling results are printed in the terminal.  
 
 
 
  🧠 Future Work
 
- 🌍 Multilingual sentiment analysis
- 👾 Reddit comparison and analysis
- 📈 Realtime tweet streaming and dashboard
+ 🌍 Multilingual sentiment analysis  
+ 👾 Reddit comparison and analysis  
+ 📈 Realtime tweet streaming and dashboard  
 
 
 
