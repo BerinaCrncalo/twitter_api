@@ -1,0 +1,12 @@
+*.DS_Store
+*.pdf
+*.jpg
+*.png
+*.webp
+*.mp4
+*.log
+bin/
+build/
+out/
+venv/
+.env
