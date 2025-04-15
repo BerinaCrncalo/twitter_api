@@ -24,12 +24,10 @@ git clone https://github.com/BerinaCrncalo/twitter_api.git
 
 Make sure you're using Python 3.7+  
 Install required packages via pip:
-bash
 pip install r requirements.txt
 
 If requirements.txt is not provided, install manually:
-pip install tweepy pythondotenv transformers matplotlib wordcloud scikitlearn
-
+pip install tweepy pythondotenv transformers matplotlib wordcloud scikitlearn wordcloud requests
 
  🔐 3. Create a .env File
 

@@ -1,0 +1,9 @@
+tweepy
+python-dotenv
+transformers
+matplotlib
+scikit-learn
+wordcloud
+requests
+
+pip install -r requirements.txt
